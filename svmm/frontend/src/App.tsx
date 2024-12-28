@@ -30,7 +30,7 @@ const App: React.FC = () => {
     console.log('FormData:', formData);
 
     try {
-      const response = await axios.post('https://prodigy-ml-03.onrender.com/predict', formData, {
+      const response = await axios.post('http://127.0.0.1:5000/predict', formData, {
         headers: {
           'Content-Type': 'multipart/form-data',
         },
