@@ -6,7 +6,7 @@ from flask_cors import CORS
 from skimage.feature import hog
 import os
 app = Flask(__name__, static_folder='../frontend/dist', static_url_path='')
-CORS(app, resources={r"/predict": {"origins": "http://localhost:5173"}})
+CORS(app, resources={r"/predict": {"origins": "https://prodigy-ml-03.onrender.com"}})
 base_dir = os.path.dirname(os.path.abspath(__file__))  # This will give the absolute path to the backend folder
 model_path = os.path.join(base_dir, 'data1.pickle')
 
