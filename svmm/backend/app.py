@@ -12,7 +12,7 @@ model_path = os.path.join(base_dir, 'data1.pickle')
 
 # Load the pre-trained model
 try:
-    with open('data1.pickle', 'rb') as f:
+    with open(model_path, 'rb') as f:
         model = pickle.load(f)
         @app.route('/')
         def serve_index():
