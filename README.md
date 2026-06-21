@@ -6,9 +6,9 @@
 
 **Description** : This project is an AI-based image classification model that predicts whether a given image contains a cat or a dog. It uses deep learning techniques (SVM) to achieve high accuracy on image datasets.
 
-**Support Vector Machine (SVM)**
-Support Vector Machine (SVM) is a supervised machine learning algorithm widely used for both classification and regression tasks. Its core idea is to find an optimal hyperplane that separates data points belonging to different classes in a high-dimensional space. The objective is to maximize the margin — the distance between the hyperplane and the nearest data points from each class, known as support vectors. A larger margin typically results in better generalization.
+**AI-alogortithm used**: **Support Vector Machine (SVM)** -  
+                          (a supervised machine learning algorithm  used for both classification and regression tasks.)
 
-**Techstack -React,Flask, Machine learning model in python**
+**Techstack - React,Flask, Machine learning model in python**
 
 **url: https://prodigy-ml-03.onrender.com/**
